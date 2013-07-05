@@ -1,0 +1,50 @@
+/*
+ *  SYSTEM    :: Bruno | Sistema de Ordem de Servico
+ *  DEV       :: Bruno Luiz MElla ON 2013
+ *  VERSION   :: 1.0
+ */
+
+/* ESTRUTURA PRINCIPAL */
+* { margin: 0; padding: 0; border: 0;}
+
+body, label, input[type="submit"], input[type="button"], input[type="text"], input[type="email"], select, textarea {
+    font-family: "Open Sans", Verdana, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+#login {text-align: center; margin-top: 177px;}
+#error {text-align: right;}
+
+#funcionario{margin: 0 10px 20px;
+             float: left;}
+
+.clearBoth { 
+    clear:both; 
+}
+
+
+/*#fisica{display: none;}
+#juridica{display: none;}*/
+
+#topo{
+    background-color: #fff;
+    margin: 10px;
+    float: right;
+}
+
+#conteudo {
+    background-color: #FFF;
+    float: left;
+    min-height: 400px;
+    width: 1024px;
+}
+
+#rodape {
+    background-color: #FFF;
+    clear: both;
+    height: 25px;
+    width: 1024px;
+    font-weight: bold;
+}
+
+
+
